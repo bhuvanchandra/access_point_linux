@@ -6,6 +6,8 @@
 * Colibri Evaluation Board V3.1a/ Iris Rev 1.1
 * Ambicom WL250N-USB Wireless 802.11b/g/n (V1.0a)
 
+![alt tag](https://www.dropbox.com/s/dg6hcitfnbhhbjz/eval_3.1a_test_setup.jpg)
+![alt tag](https://www.dropbox.com/s/ynrh8iofkscbdbc/iris_test_setup.jpg)
 ####During boot or upon insertion the following kernel messages identify Ambicom WL250N-USB stick:
 ````
 [   10.153746] usb 1-1.1: new high speed USB device number 3 using fsl-ehci
@@ -399,3 +401,6 @@ wlan0     Link encap:Ethernet  HWaddr 00:10:7A:4F:73:B4
           RX bytes:444925 (434.4 KiB)  TX bytes:304509 (297.3 KiB)
 ````	
 Now we can able to see the access point SSID on other wifi devices. One can connect to the access point with the appropriate pass key and able to browse the internet.
+![alt tag](https://www.dropbox.com/s/c1qxhinfp0kc3q9/ap1.png)
+![alt tag](https://www.dropbox.com/s/u3tb65di9146e4y/ap2.png)
+![alt tag](https://www.dropbox.com/s/78mcdssb9ewz7ld/ap3.png)
