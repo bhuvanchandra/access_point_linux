@@ -10,7 +10,6 @@ Type=oneshot
 RemainAfterExit=yes
 ExecStart=/bin/ip link set dev wlan0 up
 ExecStart=/bin/ip addr add 192.168.0.1/24 broadcast 192.168.0.255 dev wlan0
-ExecStart=/usr/sbin/wpa_supplicant -B -iwlan0 -c /etc/wpa_supplicant.conf
 ExecStart=/usr/sbin/hostapd -B /etc/hostapd.conf
 ExecStart=/usr/sbin/udhcpd -fS /etc/udhcpd.conf
 
