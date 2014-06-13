@@ -1,0 +1,11 @@
+[Unit]
+Description=Restore iptables
+DefaultDependencies=false
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/sbin/iptables-restore /etc/iptables.ipv4.nat
+
+[Install]
+WantedBy=access-point.service
